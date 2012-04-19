@@ -5,3 +5,4 @@ app/cache/*
 app/logs/*
 .settings/*
 vendor/*
+web/bundles/*

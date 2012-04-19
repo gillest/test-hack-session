@@ -70,4 +70,7 @@
 [FOQElasticaBundle]
     git=git://github.com/Exercise/FOQElasticaBundle.git
     target=bundles/FOQ/ElasticaBundle
-    
+ 
+[HackSessionBundle]
+    git=git@github.com:gillest/HackSessionBundle.git
+    target=bundles/Gilles/Bundle/HackSessionBundle
