@@ -1,2 +1,7 @@
+.buildpath
+.project
+app/cache/*
+app/cache/*
+app/logs/*
 .settings/*
 vendor/*
