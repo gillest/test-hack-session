@@ -1,7 +1,30 @@
+GillesSessionTestBundle:
+    resource: "@GillesSessionTestBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+GillesTestFormBundle:
+    resource: "@GillesTestFormBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 GillesSearchBundle:
     resource: "@GillesSearchBundle/Controller/"
     type:     annotation
     prefix:   /
+
+_welcome:
+    pattern:  /
+    defaults: { _controller: AcmeDemoBundle:Welcome:index }
+
+_demo_secured:
+    resource: "@AcmeDemoBundle/Controller/SecuredController.php"
+    type:     annotation
+
+_demo:
+    resource: "@AcmeDemoBundle/Controller/DemoController.php"
+    type:     annotation
+    prefix:   /demo
 
 # Internal routing configuration to handle ESI
 #_internal:

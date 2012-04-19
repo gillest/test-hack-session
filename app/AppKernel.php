@@ -23,9 +23,10 @@ class AppKernel extends Kernel
             new Gilles\Bundle\SearchBundle\GillesSearchBundle(),
 
             new Gilles\Bundle\TestFormBundle\GillesTestFormBundle(),
+            new Gilles\Bundle\SessionTestBundle\GillesSessionTestBundle(),
         );
 
-        if (in_array($this->getEnvironment(), array('dev', 'test'))) {
+        if (true)/*in_array($this->getEnvironment(), array('dev', 'test'))) */{
             $bundles[] = new Acme\DemoBundle\AcmeDemoBundle();
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();

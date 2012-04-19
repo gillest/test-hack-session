@@ -24,7 +24,7 @@ security:
         secured_area:
             pattern:    ^/demo/secured/
             form_login:
-                check_path: /demo/secured/login_check
+                check_path: %local_form_login_check_path%
                 login_path: /demo/secured/login
             logout:
                 path:   /demo/secured/logout

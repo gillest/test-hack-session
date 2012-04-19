@@ -70,3 +70,9 @@ foq_elastica:
         my_twitter_river:
             client: default
             finder: 
+
+gilles_session_test:
+    login_check_path: %local_form_login_check_path%
+
+parameters:
+    local_form_login_check_path: /demo/secured/login_check
