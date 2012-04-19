@@ -1,5 +1,5 @@
 GillesSessionTestBundle:
-    resource: "@GillesSessionTestBundle/Controller/"
+    resource: "@GillesHackSessionBundle/Controller/"
     type:     annotation
     prefix:   /
 

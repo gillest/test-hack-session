@@ -1,6 +1,6 @@
 <?php
 
-namespace Gilles\Bundle\SessionTestBundle\DependencyInjection;
+namespace Gilles\Bundle\HackSessionBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('gilles_session_test');
+        $rootNode = $treeBuilder->root('gilles_hack_session');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for

@@ -23,7 +23,7 @@ class AppKernel extends Kernel
             new Gilles\Bundle\SearchBundle\GillesSearchBundle(),
 
             new Gilles\Bundle\TestFormBundle\GillesTestFormBundle(),
-            new Gilles\Bundle\SessionTestBundle\GillesSessionTestBundle(),
+            new Gilles\Bundle\HackSessionBundle\GillesHackSessionBundle(),
         );
 
         if (true)/*in_array($this->getEnvironment(), array('dev', 'test'))) */{

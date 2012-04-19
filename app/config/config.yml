@@ -71,7 +71,7 @@ foq_elastica:
             client: default
             finder: 
 
-gilles_session_test:
+gilles_hack_session:
     login_check_path: %local_form_login_check_path%
 
 parameters:

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gilles\Bundle\SessionTestBundle\Listener;
+namespace Gilles\Bundle\HackSessionBundle\Listener;
 
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 use Symfony\Component\HttpFoundation\Session;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gilles\Bundle\SessionTestBundle\Tests\Controller;
+namespace Gilles\Bundle\HackSessionBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

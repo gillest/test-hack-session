@@ -5,7 +5,7 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="gilles.authentication.hack_listener.class">Gilles\Bundle\SessionTestBundle\Listener\AuthenticationHackListener</parameter>
+        <parameter key="gilles.authentication.hack_listener.class">Gilles\Bundle\HackSessionBundle\Listener\AuthenticationHackListener</parameter>
     </parameters>
 
     <services>

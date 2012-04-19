@@ -1,6 +1,6 @@
 <?php
 
-namespace Gilles\Bundle\SessionTestBundle\Controller;
+namespace Gilles\Bundle\HackSessionBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
