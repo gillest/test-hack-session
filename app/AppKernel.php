@@ -21,7 +21,8 @@ class AppKernel extends Kernel
             new FOQ\ElasticaBundle\FOQElasticaBundle(),
             
             new Gilles\Bundle\SearchBundle\GillesSearchBundle(),
-            
+
+            new Gilles\Bundle\TestFormBundle\GillesTestFormBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
